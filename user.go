@@ -1,3 +1,5 @@
+// Shoud use go run main.go user.go
+
 package main
 
 import (
