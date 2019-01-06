@@ -7,12 +7,17 @@ import (
 )
 
 func main() {
-	fmt.Println("start")
+	fmt.Println("### main start ###")
 	//yamada := user{Name: "Yamada", Age: 30}
 	//fmt.Println(yamada.Name)
 	//fmt.Println(yamada.Age)
 	//yamada.SayHello()
 
+	mapTest()
+}
+
+func mapTest() {
+	fmt.Println("### func mapTest start###")
 	//mockDB := map[int]string{}
 	mockDB := make(map[int]string)
 	// map = make(map[key]value)
@@ -59,4 +64,6 @@ func main() {
 	} else {
 		fmt.Println("mockDB[1] exits check is False")
 	}
+
+	fmt.Println("### func mapTest end ###")
 }

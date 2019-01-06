@@ -6,11 +6,11 @@ import (
 	"fmt"
 )
 
-type User struct {
+type user struct {
 	Name string
 	Age  int
 }
 
-func (user *User) SayHello() {
+func (user *user) SayHello() {
 	fmt.Println(user.Name, ": Hello.")
 }
