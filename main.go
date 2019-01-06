@@ -7,11 +7,16 @@ import (
 )
 
 func main() {
-	fmt.Println("hogehoge")
-	yamada := User{Name: "Yamada", Age: 30}
+	fmt.Println("start")
+	//yamada := user{Name: "Yamada", Age: 30}
+	//fmt.Println(yamada.Name)
+	//fmt.Println(yamada.Age)
+	//yamada.SayHello()
 
-	fmt.Println(yamada.Name)
-	fmt.Println(yamada.Age)
+	//mockDB := map[int]string{}
+	mockDB := make(map[int]string)
+	// map = make(map[key]value)
 
-	yamada.SayHello()
+	mockDB[1] = "hoge"
+	fmt.Println(mockDB)
 }
